@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8A622DA0-A270-44AB-9F1F-963472F648EA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8BE45BB-58DE-4E60-9125-E368131475FC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task E-Ramo/Scenes/ScreenTwo/TeachersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A8BE45BB-58DE-4E60-9125-E368131475FC - f524e4289609856e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Task_E_Ramo.TeachersViewController.collectionView(_: __C.UICollectionView, didSelectItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Task E-Ramo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohamed/Desktop/projects%20ios/Task%20E-Ramo/Task%20E-Ramo/Scenes/ScreenTwo/TeachersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "2394">
+               </Location>
+               <Location
+                  uuid = "A8BE45BB-58DE-4E60-9125-E368131475FC - f524e4289609856e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Task_E_Ramo.TeachersViewController.collectionView(_: __C.UICollectionView, didSelectItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Task E-Ramo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohamed/Desktop/projects%20ios/Task%20E-Ramo/Task%20E-Ramo/Scenes/ScreenTwo/TeachersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "2217">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8795E372-F563-416D-BB06-3CAA8B7DB06D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task E-Ramo/Scenes/ScreenTwo/TeachersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8795E372-F563-416D-BB06-3CAA8B7DB06D - f524e42896098466"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Task_E_Ramo.TeachersViewController.collectionView(_: __C.UICollectionView, didSelectItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Task E-Ramo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohamed/Desktop/projects%20ios/Task%20E-Ramo/Task%20E-Ramo/Scenes/ScreenTwo/TeachersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "2993">
+               </Location>
+               <Location
+                  uuid = "8795E372-F563-416D-BB06-3CAA8B7DB06D - f524e428960984cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Task_E_Ramo.TeachersViewController.collectionView(_: __C.UICollectionView, didSelectItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Task E-Ramo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohamed/Desktop/projects%20ios/Task%20E-Ramo/Task%20E-Ramo/Scenes/ScreenTwo/TeachersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "2583">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9185634D-898E-429A-809A-CDC3C3D18D74"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task E-Ramo/Scenes/ScreenTwo/TeachersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9185634D-898E-429A-809A-CDC3C3D18D74 - f524e42896098549"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Task_E_Ramo.TeachersViewController.collectionView(_: __C.UICollectionView, didSelectItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Task E-Ramo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohamed/Desktop/projects%20ios/Task%20E-Ramo/Task%20E-Ramo/Scenes/ScreenTwo/TeachersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "2217">
+               </Location>
+               <Location
+                  uuid = "9185634D-898E-429A-809A-CDC3C3D18D74 - f524e42896098549"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Task_E_Ramo.TeachersViewController.collectionView(_: __C.UICollectionView, didSelectItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Task E-Ramo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohamed/Desktop/projects%20ios/Task%20E-Ramo/Task%20E-Ramo/Scenes/ScreenTwo/TeachersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "2068">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

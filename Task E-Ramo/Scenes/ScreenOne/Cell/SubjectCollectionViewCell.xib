@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SubjectCollectionViewCell" customModule="Task_E_Ramo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="365" height="143"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="365" height="143"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9QJ-OB-HAZ">
+                        <rect key="frame" x="0.0" y="0.0" width="365" height="143"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="subject" translatesAutoresizingMaskIntoConstraints="NO" id="L2k-eU-nvd">
+                                <rect key="frame" x="0.0" y="0.0" width="365" height="103"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Math" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L58-bg-ESv">
+                                <rect key="frame" x="132.66666666666666" y="111" width="100" height="32"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="RpE-Ke-ggw"/>
+                                    <constraint firstAttribute="height" constant="32" id="fZX-HU-8aW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Lj-Me-1nf">
+                                <rect key="frame" x="0.0" y="0.0" width="365" height="143"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Qn5-9Z-ift">
+                                <rect key="frame" x="157.66666666666666" y="45.333333333333329" width="50" height="53.333333333333329"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="bGe-NK-KNq"/>
+                                    <constraint firstAttribute="width" constant="50" id="g1k-fG-QKv"/>
+                                </constraints>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="L2k-eU-nvd" firstAttribute="leading" secondItem="9QJ-OB-HAZ" secondAttribute="leading" id="37y-Fd-EKQ"/>
+                            <constraint firstAttribute="trailing" secondItem="1Lj-Me-1nf" secondAttribute="trailing" id="77N-9m-tli"/>
+                            <constraint firstItem="L2k-eU-nvd" firstAttribute="top" secondItem="9QJ-OB-HAZ" secondAttribute="top" id="Gs5-mO-czu"/>
+                            <constraint firstItem="L58-bg-ESv" firstAttribute="centerX" secondItem="L2k-eU-nvd" secondAttribute="centerX" id="N2N-fO-ldM"/>
+                            <constraint firstAttribute="bottom" secondItem="L58-bg-ESv" secondAttribute="bottom" id="Nzg-oM-BUr"/>
+                            <constraint firstItem="Qn5-9Z-ift" firstAttribute="centerY" secondItem="9QJ-OB-HAZ" secondAttribute="centerY" id="T2p-wg-ZYZ"/>
+                            <constraint firstItem="1Lj-Me-1nf" firstAttribute="leading" secondItem="9QJ-OB-HAZ" secondAttribute="leading" id="VzC-Dl-eAU"/>
+                            <constraint firstItem="L58-bg-ESv" firstAttribute="top" secondItem="L2k-eU-nvd" secondAttribute="bottom" constant="8" id="XYB-f2-YSp"/>
+                            <constraint firstItem="1Lj-Me-1nf" firstAttribute="top" secondItem="9QJ-OB-HAZ" secondAttribute="top" id="dUc-6b-mn5"/>
+                            <constraint firstAttribute="bottom" secondItem="1Lj-Me-1nf" secondAttribute="bottom" id="mdf-Iz-3gb"/>
+                            <constraint firstItem="Qn5-9Z-ift" firstAttribute="centerX" secondItem="9QJ-OB-HAZ" secondAttribute="centerX" id="tSt-hP-8yb"/>
+                            <constraint firstAttribute="trailing" secondItem="L2k-eU-nvd" secondAttribute="trailing" id="u4B-wv-CvY"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="9QJ-OB-HAZ" secondAttribute="bottom" id="0jq-I2-Ywu"/>
+                <constraint firstItem="9QJ-OB-HAZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="UWf-9A-OmN"/>
+                <constraint firstAttribute="trailing" secondItem="9QJ-OB-HAZ" secondAttribute="trailing" id="jqF-p9-Kcf"/>
+                <constraint firstItem="9QJ-OB-HAZ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="rTo-2o-KAB"/>
+            </constraints>
+            <size key="customSize" width="365" height="143"/>
+            <connections>
+                <outlet property="markLbl" destination="Qn5-9Z-ift" id="2EY-2C-mXL"/>
+                <outlet property="shadowView" destination="1Lj-Me-1nf" id="WgG-9d-QpM"/>
+                <outlet property="subjectName" destination="L58-bg-ESv" id="LAi-dQ-hiI"/>
+                <outlet property="subjectView" destination="9QJ-OB-HAZ" id="Wkh-Dq-0uA"/>
+            </connections>
+            <point key="canvasLocation" x="270.99236641221376" y="21.47887323943662"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="checkmark" catalog="system" width="128" height="114"/>
+        <image name="subject" width="540" height="360"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

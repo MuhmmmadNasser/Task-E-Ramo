@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90726302BD0055A00A999D7 /* ThankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907262F2BD0055A00A999D7 /* ThankViewController.swift */; };
+		D90BD17D2BCEAE090084A653 /* InstractorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90BD17B2BCEAE090084A653 /* InstractorCollectionViewCell.swift */; };
+		D90BD17E2BCEAE090084A653 /* InstractorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90BD17C2BCEAE090084A653 /* InstractorCollectionViewCell.xib */; };
+		D94D32822BCEA933004206B3 /* InstractorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94D32812BCEA933004206B3 /* InstractorModel.swift */; };
 		D9C103DF2BCE8D65005E310C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C103DE2BCE8D65005E310C /* AppDelegate.swift */; };
 		D9C103E12BCE8D65005E310C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C103E02BCE8D65005E310C /* SceneDelegate.swift */; };
 		D9C103E32BCE8D65005E310C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C103E22BCE8D65005E310C /* ViewController.swift */; };
 		D9C103E62BCE8D66005E310C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C103E42BCE8D66005E310C /* Main.storyboard */; };
 		D9C103E82BCE8D67005E310C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C103E72BCE8D67005E310C /* Assets.xcassets */; };
 		D9C103EB2BCE8D67005E310C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C103E92BCE8D67005E310C /* LaunchScreen.storyboard */; };
+		D9C103FC2BCE8FC6005E310C /* SubjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C103FA2BCE8FC6005E310C /* SubjectCollectionViewCell.swift */; };
+		D9C103FD2BCE8FC6005E310C /* SubjectCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C103FB2BCE8FC6005E310C /* SubjectCollectionViewCell.xib */; };
+		D9C83AD72BCE7E9B003B5515 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C83AD62BCE7E9B003B5515 /* CardView.swift */; };
+		D9C83AD92BCE7EE8003B5515 /* TeachersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C83AD82BCE7EE8003B5515 /* TeachersViewController.swift */; };
+		D9F81FB02BCF9C2000B1B438 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F81FAF2BCF9C2000B1B438 /* DetailsViewController.swift */; };
+		D9F81FB32BCFC79500B1B438 /* CreditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F81FB22BCFC79500B1B438 /* CreditCardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D907262F2BD0055A00A999D7 /* ThankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankViewController.swift; sourceTree = "<group>"; };
+		D90BD17B2BCEAE090084A653 /* InstractorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstractorCollectionViewCell.swift; sourceTree = "<group>"; };
+		D90BD17C2BCEAE090084A653 /* InstractorCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstractorCollectionViewCell.xib; sourceTree = "<group>"; };
+		D94D32812BCEA933004206B3 /* InstractorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstractorModel.swift; sourceTree = "<group>"; };
 		D9C103DB2BCE8D65005E310C /* Task E-Ramo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task E-Ramo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C103DE2BCE8D65005E310C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9C103E02BCE8D65005E310C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,12 @@
 		D9C103E72BCE8D67005E310C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9C103EA2BCE8D67005E310C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9C103EC2BCE8D67005E310C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C103FA2BCE8FC6005E310C /* SubjectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectCollectionViewCell.swift; sourceTree = "<group>"; };
+		D9C103FB2BCE8FC6005E310C /* SubjectCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubjectCollectionViewCell.xib; sourceTree = "<group>"; };
+		D9C83AD62BCE7E9B003B5515 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D9C83AD82BCE7EE8003B5515 /* TeachersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachersViewController.swift; sourceTree = "<group>"; };
+		D9F81FAF2BCF9C2000B1B438 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		D9F81FB22BCFC79500B1B438 /* CreditCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +57,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D907262E2BD0052700A999D7 /* Screen Five */ = {
+			isa = PBXGroup;
+			children = (
+				D907262F2BD0055A00A999D7 /* ThankViewController.swift */,
+			);
+			path = "Screen Five";
+			sourceTree = "<group>";
+		};
+		D90BD17F2BCEAE120084A653 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D90BD17B2BCEAE090084A653 /* InstractorCollectionViewCell.swift */,
+				D90BD17C2BCEAE090084A653 /* InstractorCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		D9C103D22BCE8D65005E310C = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +95,70 @@
 			children = (
 				D9C103DE2BCE8D65005E310C /* AppDelegate.swift */,
 				D9C103E02BCE8D65005E310C /* SceneDelegate.swift */,
-				D9C103E22BCE8D65005E310C /* ViewController.swift */,
-				D9C103E42BCE8D66005E310C /* Main.storyboard */,
-				D9C103E72BCE8D67005E310C /* Assets.xcassets */,
+				D9C83AD62BCE7E9B003B5515 /* CardView.swift */,
+				D9C103F22BCE8DA0005E310C /* Scenes */,
+				D907262E2BD0052700A999D7 /* Screen Five */,
 				D9C103E92BCE8D67005E310C /* LaunchScreen.storyboard */,
+				D9C103E72BCE8D67005E310C /* Assets.xcassets */,
 				D9C103EC2BCE8D67005E310C /* Info.plist */,
 			);
 			path = "Task E-Ramo";
+			sourceTree = "<group>";
+		};
+		D9C103F22BCE8DA0005E310C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D94D32812BCEA933004206B3 /* InstractorModel.swift */,
+				D9C103E42BCE8D66005E310C /* Main.storyboard */,
+				D9C103F32BCE8DB0005E310C /* ScreenOne */,
+				D9C103F42BCE8DBF005E310C /* ScreenTwo */,
+				D9F81FAE2BCF9BDF00B1B438 /* ScreeenThree */,
+				D9F81FB12BCFC75700B1B438 /* ScreenFour */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		D9C103F32BCE8DB0005E310C /* ScreenOne */ = {
+			isa = PBXGroup;
+			children = (
+				D9C103F52BCE8DD3005E310C /* Cell */,
+				D9C103E22BCE8D65005E310C /* ViewController.swift */,
+			);
+			path = ScreenOne;
+			sourceTree = "<group>";
+		};
+		D9C103F42BCE8DBF005E310C /* ScreenTwo */ = {
+			isa = PBXGroup;
+			children = (
+				D9C83AD82BCE7EE8003B5515 /* TeachersViewController.swift */,
+				D90BD17F2BCEAE120084A653 /* Cell */,
+			);
+			path = ScreenTwo;
+			sourceTree = "<group>";
+		};
+		D9C103F52BCE8DD3005E310C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D9C103FA2BCE8FC6005E310C /* SubjectCollectionViewCell.swift */,
+				D9C103FB2BCE8FC6005E310C /* SubjectCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D9F81FAE2BCF9BDF00B1B438 /* ScreeenThree */ = {
+			isa = PBXGroup;
+			children = (
+				D9F81FAF2BCF9C2000B1B438 /* DetailsViewController.swift */,
+			);
+			path = ScreeenThree;
+			sourceTree = "<group>";
+		};
+		D9F81FB12BCFC75700B1B438 /* ScreenFour */ = {
+			isa = PBXGroup;
+			children = (
+				D9F81FB22BCFC79500B1B438 /* CreditCardViewController.swift */,
+			);
+			path = ScreenFour;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +219,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90BD17E2BCEAE090084A653 /* InstractorCollectionViewCell.xib in Resources */,
 				D9C103EB2BCE8D67005E310C /* LaunchScreen.storyboard in Resources */,
+				D9C103FD2BCE8FC6005E310C /* SubjectCollectionViewCell.xib in Resources */,
 				D9C103E82BCE8D67005E310C /* Assets.xcassets in Resources */,
 				D9C103E62BCE8D66005E310C /* Main.storyboard in Resources */,
 			);
@@ -139,8 +235,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9C103E32BCE8D65005E310C /* ViewController.swift in Sources */,
+				D9C103FC2BCE8FC6005E310C /* SubjectCollectionViewCell.swift in Sources */,
+				D90726302BD0055A00A999D7 /* ThankViewController.swift in Sources */,
+				D9F81FB32BCFC79500B1B438 /* CreditCardViewController.swift in Sources */,
 				D9C103DF2BCE8D65005E310C /* AppDelegate.swift in Sources */,
+				D90BD17D2BCEAE090084A653 /* InstractorCollectionViewCell.swift in Sources */,
+				D9C83AD72BCE7E9B003B5515 /* CardView.swift in Sources */,
 				D9C103E12BCE8D65005E310C /* SceneDelegate.swift in Sources */,
+				D9C83AD92BCE7EE8003B5515 /* TeachersViewController.swift in Sources */,
+				D94D32822BCEA933004206B3 /* InstractorModel.swift in Sources */,
+				D9F81FB02BCF9C2000B1B438 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
